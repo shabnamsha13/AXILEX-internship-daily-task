@@ -1,5 +1,0 @@
-print("name: SHABNAM")
-print("age: 21")
-print("branch: MCA")
-print("college: UBDTCE")
-print("city: Davangere")
