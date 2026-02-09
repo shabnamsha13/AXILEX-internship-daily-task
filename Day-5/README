@@ -1,0 +1,22 @@
+Programs Included:
+Reverse a Number
+Expected: Reverse the given number.
+Actual: Number was reversed correctly.
+
+Palindrome Number
+Expected: Check whether the number is palindrome.
+Actual: Palindrome condition was checked correctly.
+
+Count Digits
+Expected: Count total digits in the number.
+Actual: Digits were counted correctly.
+
+Sum of Digits
+Expected: Find the sum of digits.
+Actual: Sum was calculated correctly.
+
+Fibonacci Series
+Expected: Print Fibonacci series up to given terms.
+Actual: Fibonacci series was generated correctly.
+
+Outcome of the Task:Improved understanding of Python loops, conditions, and logical thinking.
