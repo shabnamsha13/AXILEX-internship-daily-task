@@ -1,1 +1,12 @@
+FUNCTIONS & CODE REUSABILITY:
+1. Arithmetic Operations
+Expected: The program should perform arithmetic operations using functions.
+Actual: All operations were performed correctly using functions.
 
+2. Factorial of a Number
+Expected: The program should calculate factorial using a function.
+Actual: The factorial was calculated correctly.
+
+3. Prime Number Check
+Expected: The program should check prime number using a function.
+Actual: The program correctly identified prime and non-prime numbers.
