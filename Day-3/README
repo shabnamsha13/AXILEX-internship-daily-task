@@ -1,0 +1,12 @@
+CONDITIONAL STATEMENTS:
+1. Even / Odd
+Expected: Check whether the number is even or odd.
+Actual: Number identified correctly.
+
+2. Largest Number
+Expected: Find the largest number among given values.
+Actual: Largest number displayed correctly.
+
+3. Pass / Fail
+Expected: Check pass or fail based on marks.
+Actual: Pass or fail status shown correctly.
