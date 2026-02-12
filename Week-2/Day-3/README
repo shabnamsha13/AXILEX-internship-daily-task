@@ -1,0 +1,22 @@
+STRINGS & OPERATIONS
+Programs Included:
+
+1. Reverse a string
+Expected Outcome: The program should reverse the given string.
+Actual Outcome: The program successfully printed the string in reverse order.
+
+2. Check Palindrome
+Expected Outcome: The program should check whetehr the entered string is palindrome(same when reversed).
+Actual Outcome: After running the program it correctlty told whether the string is a palindrome or not.
+
+3. Count vowels & consonants
+Expected Outcome: The program should count the number of vowels and consonants in the entered string.
+Actual outcome: After giving input the program correctly displayed the number of vowels and consonants.
+
+4. Character Frequency
+Expected Outcome: The program should count how many times each character appears in the given string.
+Actual Outcome: When I entered a string the program displayed each character along with its frequency correctly.
+
+5. String Slicing
+Expected Outcome: The program should demonstrate different string slicing operations like extracting parts of the string.
+Actual Outcome: The output showed different sliced parts of the string as expected using indexing.
