@@ -1,0 +1,19 @@
+FILE HANDLING:
+File Handling is used to store data permanently in a file instead of keeping it only in memory. In Python, file handling allows us to create, read,
+write, and append data in files.
+Programs Included:
+1. Create and write file
+   Expected outcome: The program should create a new file named student.txt and write the given student details into it.
+   Actual outcome: The file was created successfully and the data was written into the file as expected.
+ 
+2. Read file data
+   Expected outcome: The program should open the existing file and display the stored data on the screen.
+   Actual outcome: The program read the file correctly and displayed all the contents without any error,
+
+3. Append data
+   Expected outcome: The program should add new information to the file without deleting the old data and then show the updated content.
+   Actual outcome: New data was added successfully and the updated file content was displayed correctly along with the previous data.
+
+4. Store student records
+   Expected outcome: The program should take student details as input from the user and store them in a file. Each record should be saved properly for future use.
+   Actual outcome: The program accepted the input and stored the student records in the file successfully. Multiple records were added without overwriting existing data.
