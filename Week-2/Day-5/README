@@ -14,5 +14,5 @@ Programs Included:
   Actual outcome: If the file is not available, it shows message and program runs safely.
 
 4. Custom exception example
-  Expected outcome: Program should accept only valid age.
-  Actual outcome: If negative age is entered, it shows custom error message.
+  Expected outcome: Program should check whether the balance is at least 1000
+  Actual outcome: If balance is less than 1000, it shows custom error message. If balance is 1000 or more, transaction is successful and balance is displayed.
