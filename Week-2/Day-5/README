@@ -1,0 +1,18 @@
+EXCEPTION HANDLING:
+Exception handling is used to avoid program crash when an error occurs. We use try and except blocks to handle errors and make the program run safely.
+Programs Included:
+1. Try-except program
+  Expected outcome: Program should accept only numbers.
+  Actual outcome: If user enters text instead of number, error message is shown instead of crashing.
+
+2. Handle division by zero
+  Expected outcome: Program should perform division safely.
+  Actual outcome: When user enters 0 as second number, it shows message 'Cannot divide by zero'.
+
+3. Handle file errors
+  Expected outcome: Program should open and read the file.
+  Actual outcome: If the file is not available, it shows message and program runs safely.
+
+4. Custom exception example
+  Expected outcome: Program should accept only valid age.
+  Actual outcome: If negative age is entered, it shows custom error message.
