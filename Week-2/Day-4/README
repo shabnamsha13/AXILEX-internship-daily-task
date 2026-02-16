@@ -1,6 +1,7 @@
 ***FILE HANDLING***
 File Handling is used to store data permanently in a file instead of keeping it only in memory. In Python, file handling allows us to create, read,
 write, and append data in files.
+
 Programs Included:
 1. Create and write file-
    Expected outcome: The program should create a new file named student.txt and write the given student details into it.
