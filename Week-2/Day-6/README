@@ -1,1 +1,21 @@
+***MINI PRACTICE PROGRAMS***
+Programs included:
+Student management system-
+Expected outcome: Enter and store student details and display them.
+Actual outcome: Details were stored in dictionary and shown correctly.
 
+Calculator using functions-
+Expected outcome: Perform basic calculations using functions.
+Actual outcome: All operations worked and gave correct results.
+
+Menu-driven program-
+Expected outcome: Show menu and perform selected option until exit.
+Actual outcome: Menu worked properly and executed user choices.
+
+File-based record system-
+Expected outcome: Save data into file and read it.
+Actual outcome: Data saved and displayed successfully from file.
+
+Dictionary application-
+Expected outcome: Search student by roll number.
+Actual outcome: Correctly found record or showed not found message.
