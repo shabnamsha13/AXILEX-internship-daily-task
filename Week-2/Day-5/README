@@ -1,5 +1,6 @@
 ***EXCEPTION HANDLING***
 Exception handling is used to avoid program crash when an error occurs. We use try and except blocks to handle errors and make the program run safely.
+
 Programs Included:
 1. Try-except program-
   Expected outcome: Program should accept only numbers.
