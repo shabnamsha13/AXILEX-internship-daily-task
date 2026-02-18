@@ -1,1 +1,10 @@
+Day 2 – FORMS & INPUT ELEMENTS:
 
+Today I learned how to create a registration form using HTML.
+I added different input fields like Name, Email, Phone Number, Password, and Gender.
+I understood how to use proper labels and input types to collect user information correctly.
+This helped me learn how websites take data from users through forms.
+
+File Created: form.html
+Expected Outcome: I should be able to design a basic form and understand how user input is collected in a web page.
+Actual Outcome:I successfully created a registration form with proper fields and learned how each input type works.
