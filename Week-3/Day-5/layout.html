@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f2f6fc;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .header h1 {
+            margin-bottom: 10px;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background: #4facfe;
+        }
+
+        /* Main Layout */
+        .container {
+            display: flex;
+            width: 90%;
+            margin: 20px auto;
+            gap: 20px;
+        }
+
+        .sidebar {
+            width: 30%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .content {
+            width: 70%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* -------- Responsive Design -------- */
+
+        /* Tablet */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar, .content {
+                width: 100%;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header h1 {
+                font-size: 22px;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Responsive Web Design</h1>
+        <p>Resize the window to see the layout change</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Sidebar</h3>
+            <p>This section moves below the content on smaller screens.</p>
+            <p>Uses percentage width for flexibility.</p>
+        </div>
+
+        <div class="content">
+            <h2>Main Content</h2>
+            <p>This layout is responsive using media queries.</p>
+            <p>On desktop → side by side layout.</p>
+            <p>On mobile → stacked layout.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 | Responsive Design Practice</p>
+    </div>
+
+</body>
+</html>
