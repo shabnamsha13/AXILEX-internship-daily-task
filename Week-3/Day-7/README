@@ -8,14 +8,6 @@ Ramadan wellness Planner:
 This is a small frontend project made with HTML, CSS, and JavaScript.
 The website gives tips on how to keep a healthy and productive routine during Ramadan.
 
-Characteristics:
->Website with more than one page (Home, Join, Login, Contact)
->Suggestions for a daily routine during Ramadan
->Good habits for Sehri and Iftar
->Reminder to drink water (sip by sip)
->JavaScript for validating forms
->Messages that tell users what to do
-
 Technologies Used: HTML5, JavaScript and CSS3
 
 How to Run:
