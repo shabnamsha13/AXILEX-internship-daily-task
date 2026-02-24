@@ -1,15 +1,14 @@
 Day 1 – Introduction to HTML
 
-#Description:
 Today’s task was to learn the basics of HTML and understand how a simple webpage is created.
 I created a web page using basic HTML tags such as heading, paragraph, image, and link.
 I also practiced creating ordered and unordered lists and designed a table to display student details.
 
-#What I practiced:
+what I practiced:
 * Structure of an HTML document
 * Using common tags like <h1>, <p>, <img>, <a>
-* Creating ordered (`<ol>`) and unordered (`<ul>`) lists
+* Creating ordered and unordered lists
 * Designing a table using <table>, <tr>, <th> and <td>
 
-#Learning Outcome:
+outcome:
 This task helped me understand how HTML is used to structure content on a webpage and how different elements are displayed in the browser.
