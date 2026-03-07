@@ -16,7 +16,7 @@ def connect_db():
     CREATE TABLE IF NOT EXISTS records(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT,
-        email TEXT
+        course TEXT
     )
     """)
     conn.commit() 
@@ -58,10 +58,10 @@ def dashboard():
 def add():
     if request.method == "POST":
         name = request.form["name"]
-        email = request.form["email"]
+        course = request.form["course"]
 
         conn = connect_db()
-        conn.execute("INSERT INTO records (name, email) VALUES (?, ?)", (name, email))
+        conn.execute("INSERT INTO records (name, course) VALUES (?, ?)", (name, course))
         conn.commit()
         conn.close()
 
@@ -92,8 +92,8 @@ def edit(id):
 
     if request.method == "POST":
         name = request.form["name"]
-        email = request.form["email"]
-        cursor.execute("UPDATE records SET name=?, email=? WHERE id=?", (name, email, id))
+        email = request.form["course"]
+        cursor.execute("UPDATE records SET name=?, course=? WHERE id=?", (name, course, id))
         conn.commit()
         conn.close()
         return redirect("/view")
@@ -105,4 +105,5 @@ def edit(id):
 
 if __name__ == "__main__":
     connect_db().close()
+
     app.run(debug=True)
