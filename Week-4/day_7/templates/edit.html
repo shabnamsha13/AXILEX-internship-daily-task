@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Record</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
 <h2>Edit Record</h2>
 <form method="POST">
     Name:<br>
@@ -6,5 +13,7 @@
     <input type="text" name="course" value="{{ record[2] }}"><br><br>
     <button type="submit">Update</button>
 </form>
-
 <a href="/view">Back</a>
+</body>
+</html>
+
